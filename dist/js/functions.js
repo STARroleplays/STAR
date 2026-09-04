@@ -544,6 +544,7 @@ function initChangeBasics(el, data) {
             el.closest('form').querySelector('#gender').setAttribute('placeholder', basics[0].basics.gender);
             el.closest('form').querySelector('#pronouns').setAttribute('placeholder', basics[0].basics.pronouns);
             el.closest('form').querySelector('#ageValue').setAttribute('placeholder', basics[0].basics.age);
+            el.closest('form').querySelector('#species').setAttribute('placeholder', basics[0].basics.species);
             el.closest('form').querySelector('#face').setAttribute('placeholder', basics[0].basics.face);
             el.closest('form').querySelector('#image').setAttribute('placeholder', basics[0].basics.image);
             el.closest('form').querySelector('.imagePreview img').setAttribute('src', basics[0].basics.image);
