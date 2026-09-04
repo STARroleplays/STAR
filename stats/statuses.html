@@ -150,7 +150,7 @@
                             .then((response) => response.json())
                             .then((siteData) => {
                                 //set overall variables
-                                let siteName = 'site name from sheet';
+                                let siteName = 'destiny of darkness';
                                 let siteObject = siteName !== 'all' ? siteData.filter(item => item.Site === siteName) : siteData;
                                 let threadStats = createThreadStats(threadData, siteObject, siteName, siteData);
 
