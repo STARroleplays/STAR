@@ -42,6 +42,7 @@ const relationshipOptions = `<option value="">(select)</option>
         <option value="partner">Partner</option>
         <option value="crush">Crush</option>
         <option value="fling">Fling</option>
+        <option value="obsession">Obsession</option>
     </optgroup>
     <optgroup label="Platonic">
         <option value="found family">Found Family</option>
